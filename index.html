@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<title>Conversor De Unidades</title>
+	</head>
+	<body>
+		<div class="container">
+			<h2 style="margin-top: 30px">CONVERSOR DE TIEMPO</h2>
+			<div id="inp-conv">
+				<input onclick="funct()" type="text" id="number" style="text-align: center" />
+				<h2>Transformar de</h2>
+				<select id="from" onclick="funct()">
+					<option value="days">Dias</option>
+					<option value="hours">Hora</option>
+					<option value="minutes">Minutos</option>
+					<option value="seconds">Segundos</option>
+				</select>
+				<h2>A:</h2>
+				<select id="to" onclick="funct()">
+					<option value="days">Dias</option>
+					<option value="hours">Hora</option>
+					<option value="minutes">Minutos</option>
+					<option value="seconds">Segundos</option>
+				</select>
+				<div id="result">
+					<span id="ris">The result is = </span>
+					<span id="print-result"></span>
+				</div>
+			</div>
+		</div>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
